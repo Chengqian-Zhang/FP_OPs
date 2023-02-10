@@ -47,7 +47,7 @@ from dflow.python import (
 import time, shutil, json, jsonpickle
 from pathlib import Path
 
-from context import (
+from .context import (
     PrepRunFp,
     default_image,
     upload_python_packages,
