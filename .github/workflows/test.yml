@@ -1,7 +1,6 @@
 name: Python unit-tests
 
 on:
-  - push
   - pull_request
 
 jobs:
