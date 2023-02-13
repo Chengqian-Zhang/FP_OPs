@@ -18,6 +18,7 @@ setuptools.setup(
         "lbg",
         "dpdata",
         "numpy",
+        "dargs",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
