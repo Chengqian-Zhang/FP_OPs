@@ -136,9 +136,9 @@ class TestPrepRunVasp(unittest.TestCase):
         warnings.simplefilter('ignore', ResourceWarning)
         self.ntasks = 3
         self.confs = [Path(Path('confs')/'data.000'),Path(Path('confs')/'data.001')]
-        self.incar = Path('incar')
+        self.incar = 'incar'
         self.incar.write_text("This is INCAR")
-        self.potcar = Path('potcar')
+        self.potcar = 'potcar'
         self.potcar.write_text('This is POTCAR')
         self.type_map = ['Na']
         self.optional_testfile = Path('test_file')
