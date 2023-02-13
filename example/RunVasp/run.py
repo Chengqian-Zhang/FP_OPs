@@ -5,7 +5,7 @@ config["host"] = "https://workflows.deepmodeling.com"
 config["k8s_api_server"] = "https://workflows.deepmodeling.com"
 bohrium.config["username"] = ""
 bohrium.config["password"] = ""
-bohrium.config["project_id"] = 
+bohrium.config["project_id"] 
 s3_config["repo_key"] = "oss-bohrium"
 s3_config["storage_client"] = TiefblueClient()
 
@@ -43,7 +43,7 @@ dispatcher_executor_cpu = DispatcherExecutor(
             "remote_profile": {
                 "email": "xxx",
                 "password": "xxx",
-                "program_id": xxx,
+                "program_id": 123,
                 "input_data": {
                     "job_type": "container",
                     "platform": "ali",

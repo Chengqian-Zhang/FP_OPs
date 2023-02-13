@@ -57,9 +57,9 @@ fp_config={
                 "batch_type": "Bohrium",
                 "context_type": "Bohrium",
                 "remote_profile": {
-                    "email",
-                    "password", 
-                    "program_id" ,
+                    "email":"123",
+                    "password":"123", 
+                    "program_id":123,
                     "input_data": {
                         "job_type": "container",
                         "platform": "ali",
