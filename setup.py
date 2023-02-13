@@ -16,8 +16,8 @@ setuptools.setup(
     install_requires=[
         "pydflow",
         "lbg",
-        "dpdata>=0.2.13",
-        "numpy>=1.24.1",
+        "dpdata",
+        "numpy",
         "dargs",
     ],
     classifiers=[
