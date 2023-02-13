@@ -64,10 +64,10 @@ except:
             )
 from PrepRunFp.PrepFp.VASP.PrepVasp import PrepVasp
 from PrepRunFp.PrepFp.VASP.VaspInputs import VaspInputs
-
-from .mocked_ops import MockedRunVasp
-#except:
-#    from mocked_ops import MockedRunVasp
+try:
+    from .mocked_ops import MockedRunVasp
+except:
+    from mocked_ops import MockedRunVasp
 from PrepRunFp.PrepRunFp import PrepRunFp
 upload_packages.append("../PrepRunFp")
 upload_packages.append("./context.py")
