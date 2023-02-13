@@ -18,13 +18,14 @@ setuptools.setup(
         "lbg",
         "dpdata",
         "numpy",
+        "dargs",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.8',
+    python_requires='>=3.7',
     provides=["fpoptest"],
     scripts=[]
 )
