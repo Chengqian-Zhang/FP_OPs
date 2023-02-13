@@ -46,29 +46,18 @@ from dflow.python import (
 
 import time, shutil, json, jsonpickle
 from pathlib import Path
-try:
-    from .context import (
-            PrepRunFp,
-            default_image,
-            upload_python_packages,
-            skip_ut_with_dflow,
-            skip_ut_with_dflow_reason,
-            )
-except:
-    from context import (
-            PrepRunFp,
-            default_image,
-            upload_python_packages,
-            skip_ut_with_dflow,
-            skip_ut_with_dflow_reason,
-            )
+    
+from context import (
+        PrepRunFp,
+        default_image,
+        upload_python_packages,
+        skip_ut_with_dflow,
+        skip_ut_with_dflow_reason,
+        )
 from PrepRunFp.PrepFp.VASP.PrepVasp import PrepVasp
 from PrepRunFp.PrepFp.VASP.VaspInputs import VaspInputs
 
-try:
-    from .mocked_ops import MockedRunVasp
-except:
-    from mocked_ops import MockedRunVasp
+from mocked_ops import MockedRunVasp
 from PrepRunFp.PrepRunFp import PrepRunFp
 upload_packages.append("../PrepRunFp")
 upload_packages.append("./context.py")

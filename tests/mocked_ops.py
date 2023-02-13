@@ -12,10 +12,7 @@ upload_packages.append(__file__)
 import os, json, shutil, re, pickle, glob
 from pathlib import Path
 from typing import Tuple, List
-try:
-    from context import PrepRunFp
-except:
-    from .context import PrepRunFp
+from context import PrepRunFp
 from PrepRunFp.RunFp.VASP.RunVasp import RunVasp
 
 class MockedRunVasp(RunVasp):

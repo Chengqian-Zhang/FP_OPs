@@ -3,10 +3,7 @@ from dflow.python import OPIO,TransientError
 import shutil
 from pathlib import Path
 from mock import mock, patch, call
-try:
-    from context import PrepRunFp
-except:
-    from .context import PrepRunFp
+from context import PrepRunFp
 from PrepRunFp.RunFp.VASP.RunVasp import RunVasp
 from mocked_ops import MockedRunVasp
 
